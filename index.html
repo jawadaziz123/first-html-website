@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Title name -->
     <title>Home</title>
-    
+    <!-- linked external css file -->
+    <link rel="stylesheet" href="style.css">
+
 </head>
-<body style="margin: 0;">
+
+<body>
     <!-- Start header -->
-    <header>
+    <header class="head">
         <!-- start logo -->
         <div>
             <div class="logo">
-               <img width="50px" src="assets/media/jd-logo-png_seeklogo-170615.png" alt="">
+                <img width="50px" src="assets/media/jd-logo-png_seeklogo-170615.png" alt="">
             </div>
         </div>
-        <h1>Jawad Aziz</h1>
+        <h1 class="web-name">Jawad Aziz</h1>
         <!-- navebar  -->
-        <nav>
+        <nav class="navbar">
             <a href="index.html">Home</a>
             <a href="about.html">About</a>
             <a href="contact.html">Contact</a>
@@ -29,22 +33,22 @@
 
     <main>
         <!-- MAin section About  -->
-        
+
         <section class="intro">
-            <h1>
+            <h1 class="main-heads">
                 My Name is Jawad Aziz
             </h1>
-            <p>
-                i am currently learing frontend webdevelopment.
+            <p class="desc">
+                I am currently learing frontend webdevelopment.
             </p>
             <figure>
-                <img src="assets/media/fiverr#.jpg" width="100px">
+                <img class="char-image" src="assets/media/myimage.jpg" width="200px">
             </figure>
-            
+
         </section>
 
         <section class="interest">
-            <h1>My Interests</h1>
+            <h1 class="main-heads">My Interests</h1>
             <ul>
                 <li>Web Development</li>
                 <li>App Development</li>
@@ -53,21 +57,24 @@
             </ul>
         </section>
         <section class="profiles">
-            <h1>My Profiles</h1>
+            <h1 class="main-heads" id="social-links">My Profiles</h1>
+            <div>
             <a href="https://www.linkedin.com/in/jawad-aziz-81ab38364">Linkedin</a>
             <a href="https://github.com/jawadaziz123">GitHub</a>
             <a href="https://tiktok.com/jawady47">Tiktok</a>
+            </div>
         </section>
     </main>
     <!-- Footer  -->
 
-    <footer style="background-color: black; color: black; height: 40vh; margin-top: 10px">
+    <footer class="footer" style="background-color: black; color: black; height: 40vh; margin-top: 10px">
         <p style="padding-bottom: 1px; color: white;">
             © 2026 Student Registration
         </p>
     </footer>
 
     <!-- JavaScript  -->
-    
+
 </body>
+
 </html>

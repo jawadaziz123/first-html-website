@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    background-color: rgb(194, 210, 233);
+}
+.head{
+    background-color: rgb(6, 176, 238);
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+.navbar a:hover{
+    text-decoration: underline;
+}
+.navbar a:acitve{
+    background-color: white;
+}
+.logo img{
+    border-radius: 50%;
+}
+.web-name{
+    margin-left: -68rem;
+    margin-top: 10px;
+}
+.footer{
+    margin-top: 36rem;
+}
+.char-image{
+    width: 224px;
+    height: 214px;
+    border-radius: 50%;
+}
+.main-heads{
+    display: inline-block;
+    padding: 10px 6px;
+    background-color: rgb(17, 15, 1);
+    border-radius: 10px;
+    color: white;
+    margin-left: 5px;
+}
+.desc{
+    font-size: 24px;
+}
+.education-section,
+.skills-section,
+.goals-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin: 5px;
+    padding: 10px 5px;
+    border: none;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.hobbies-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 5px;
+    padding: 10px 5px;
+    border: none;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.content-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+      box-shadow: 0 0 50px rgba(0,0,0,0.2);
+}
+.contact-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+}
+label{
+    margin-bottom: 5px;
+}
+input{
+    padding: 10px 6px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+select{
+    padding: 10px 6px;
+    border: none;
+    border-radius: 10px;
+}
+#message{
+    padding: 15px 10px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.submit-btn{
+    padding: 10px 6px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(6, 176, 238);
+}
